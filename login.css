@@ -1,0 +1,24 @@
+@media screen and (max-width: 786px) {
+    .d1 {
+      width: 50%;
+      margin: auto;
+    }
+  }
+
+@media screen and (min-width: 787px) {
+    .d1 {
+      width: 25%;
+      margin: auto;
+    }
+  }
+  
+@media screen and (max-width: 360px) {
+    .d1 {
+      width: 100%;
+    }
+  }
+
+img:hover {
+    cursor: pointer;
+}
+

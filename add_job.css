@@ -1,0 +1,19 @@
+@media screen and (max-width: 786px) {
+    .d1 {
+      width: 80%;
+      margin: auto;
+    }
+  }
+
+@media screen and (min-width: 787px) {
+    .d1 {
+      width: 60%;
+      margin: auto;
+    }
+  }
+  
+@media screen and (max-width: 360px) {
+    .d1 {
+      width: 100%;
+    }
+  }

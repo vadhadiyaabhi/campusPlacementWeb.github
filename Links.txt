@@ -1,0 +1,7 @@
+type placement logo
+
+logo1:   https://tse4.explicit.bing.net/th?id=OIP.mmxikNZg9-4btCVuoAhqRQHaFA&pid=Api&P=0&w=249&h=169
+
+logo2:   https://tse2.mm.bing.net/th?id=OIP.h6_6ZH5LX7gkAeO9Rn8TCAHaFu&pid=Api&P=0&w=229&h=178
+
+logo3:   https://tse4.mm.bing.net/th?id=OIP.xfka6mCnsOEcfsJwtIJXbAHaE5&pid=Api&P=0&w=255&h=169

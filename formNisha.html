@@ -1,0 +1,100 @@
+
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>home page</title>
+    <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script></head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="">Placement</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="" class="active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">About Us</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="">company details</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="">Contact Us</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="">My profile</a>
+                </li>
+
+            </ul>
+           
+        </div>
+    </nav>
+<h1>Hello <?php echo $_SESSION['username']; ?></h1>
+
+<!-- form -->
+<div class="container">
+   	  <form method="post" action="">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputname">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" >
+                </div>
+                 <div class="form-group col-md-6">
+                    <label for="inputEnroll">Enrollment No.</label>
+                    <input type="number" class="form-control" id="enroll" name="enroll" >
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputEmail">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" >
+                </div>
+                 <div class="form-group col-md-6">
+                <label for="inputPhone">Phone Number</label>
+                <input type="tel" class="form-control" id="phone" name="phone">
+            </div>
+             <div class="form-group col-md-6">
+                <label for="inputSem">Current Semester</label>
+                <input type="number" class="form-control" id="Semester" name="Semester">
+            </div>
+             <div class="form-group col-md-6">
+                <label for="inputBranch">Branch of Study</label>
+                <input type="text" class="form-control" id="Branch" name="Branch">
+            </div>
+
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="inputSpi">SPI</label>
+                    <input type="number" class="form-control" id="spi" name="spi">
+                </div>
+                 <div class="form-group col-md-4">
+                    <label for="inputCpi">CGPI</label>
+                    <input type="number" class="form-control" id="cpi" name="cpi">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="inputBacklog">Current Backlog</label>
+                    <input type="number" class="form-control" id="backlog" name="backlog">
+                </div>
+
+               
+            </div>
+           
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+</div>
+</body>
+
+</html>
